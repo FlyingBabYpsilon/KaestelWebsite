@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Bootstrap core CSS -->
+    <link href="/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" >
+    
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+ 
+  </head>
+  <body>
+    <div class="container">
+      <header class="blog-header py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-4 pt-1">
+            <a class="text-muted" href="home"></a>
+          </div>
+          <div class="col-4 text-center">
+            <a class="blog-header-logo text-dark" href="home">Limousinhof Kästel</a>
+          </div>
+          <div  class="col-4 d-flex justify-content-end align-items-center">
+            <a class="text-muted" href="kontakt">Kontakt</a>
+          </div>
+        </div>
+      </header>
+      
+      
+      <div>
+        <navbar></navbar>
+      </div>
+
+      <router-outlet></router-outlet>
+
+      <footer class="blog-footer">
+      
+        <div class="row">
+          <div class="col-6 col-md">
+            <h5>Öffnungszeiten</h5>
+            <p>Donnerstags: 15.00 - 18.00<br> Freitag 11.00 - 18.00 <br> An Feiertagen haben wir geschlossen</p>
+          </div>
+          <div class="col-6 col-md">
+            <div>
+             <h5>Anfahrt</h5>
+              <p>Hofladen Kästel <br> Bruchsiedlung 3 <br> 76669 Bad Schönborn </p>
+            </div><!--Google map-->
+        <div id="map-container-google-1" class="z-depth-1-half map-container col-6 col-md" style="height: 200px">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.1224398002173!2d8.633657315892409!3d49.23616777932636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797bcf28427214b%3A0x101cd86562e0d5b9!2sHofladen%20Kaestel!5e0!3m2!1sde!2sus!4v1589904795139!5m2!1sde!2sus" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        
+        <!--Google Maps-->
+          </div>
+          </div>
+        
+        
+          <div class="col-6 col-md">
+            <h5>Kontakt</h5>
+              Karl-Heinz und Elke Kästel <br> Tel: 07253/70418 <br> Fax: 07253/932857 <br> Email: limousinhof.kaestel@web.de <br> <br> 
+              <h6>Impressum</h6> <br> <h6>Datenschutz</h6> <br> Copyright 2020 Hofladen Kästel
+          </div>
+        </div>
+        <div>
+        <p>
+          <a href="">Back to top</a>
+        </p>
+      </div>
+      </footer>
+    </div>
+  </body>
+</html>

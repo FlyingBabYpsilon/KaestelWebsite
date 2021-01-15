@@ -1,0 +1,83 @@
+<p>
+  <ngb-alert type="custom" [dismissible]="false"><strong>Achtung!</strong> Am 21.05 haben wir geschlossen. <br> Am 22.05 sind wir wie gewohnt für euch da</ngb-alert>
+</p>
+
+<ngb-carousel>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img class="d-block w-100" src="http://www.hk.comein.de/42716/IMG_6144.JPG" alt="First slide" width="75%" height="75%">
+      </div>
+      <div class="carousel-caption">
+        <h3>Wir haben einen neuen Webauftritt</h3>
+        <p>Machen Sie sich gerne mit unserer neuen Homepage bekannt. Über Anregungen und Verbesserungsvorchläge würden wir uns sehr freuen!</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img class="d-block w-100" src="/assets/images/first.png" alt="Second slide" height="75%"  width="75%">
+        </div>
+        <div class="carousel-caption">
+          <h3>Wir ziehen unsere Rinder selber auf</h3>
+          <p>Falls Sie mehr über unsere Rinder erfahren wollen können Sie sich gerne auf unserer Homepage oder direkt vor Ort informieren</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide><a href="about">
+        <div class="picsum-img-wrapper">
+          <img class="d-block w-100" src="/assets/images/wir1.jpeg" alt="Third slide" width="75%" height="75%">
+        </div>
+        <div class="carousel-caption">
+          <h3>Das sind wir</h3>
+          <p>Mehr über unseren Familienbetrieb könnt ihr hier erfahren</p>
+        </div></a>
+      </ng-template>
+  </ngb-carousel>
+
+  <div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success">Neu</strong>
+          <h3 class="mb-0">Absofort  im Sortiement - Soßen vom Erck- Flairhotel und Restaurant</h3><br>
+          <p class="card-text mb-auto">Hergestellt und Abgefüllt von Erck- Flairhotel und Restaurant. 
+            <br> Folgende Sorten sind vorhanden:<br>
+            <ul>
+              <li>Rinderragout</li>
+              <li>Paprikagulasch</li>
+              <li>Rinderbolognese</li>
+            </ul>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img src="/assets/images/sossen.jpg" alt="Soßen" width="900" height="600">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-danger">Saison</strong>
+          <h3 class="mb-0">Saisonale Produkte aus Reilingen</h3>
+          <div class="mb-1 text-muted">April 2020</div><br>
+          <p class="mb-auto">Aktuell haben wir für Sie frische Erdbeeren und Spargel von der Familie Schröder aus Reilingen.  </p>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img src="/assets/images/spargel.jpg" alt="Soßen" width="900" height="600">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <strong class="d-inline-block mb-2 text-dark">Sortimentserweiterung</strong>
+        <h3 class="mb-0">Sorgs Bauernhofeis</h3>
+        <div class="mb-1 text-muted">2019</div><br>
+        <p class="mb-auto">Absofort bieten wir das <a href="http://sorg-bauernhofeis.de">Bauernhof Eis</a> von Brigitte und Karl-Richard Sorg aus Gemmingen bei uns an. </p>
+      </div>
+      <!-- <div class="col-auto d-none d-lg-block">
+        <img src="/assets/images/spargel.jpg" alt="Soßen" width="900" height="600">
+      </div> -->
+    </div>
+  </div>
